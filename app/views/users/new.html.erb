@@ -1,0 +1,12 @@
+<form action="/users" method="post" accept-charset="UTF-8">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <p>Please enter the following to sign up:</p>
+  <p>Username:</p>
+  <input type="text" name="user[username]">
+  <p>Password:</p>
+  <input type="password" name="user[password]">
+  <p>E-mail address:</p>
+  <input type="email" name="user[email]">
+  <br>
+  <input type="submit" value="Sign up">
+</form>
