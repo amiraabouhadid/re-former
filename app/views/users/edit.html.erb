@@ -1,0 +1,17 @@
+<%= form_with model: @user do |form| %>
+<%= form.label :username, "Please enter the following to sign up:" %>
+<p>
+  <%= form.label :username, "Enter Your Username:" %>
+  <%= form.text_field :username, placeholder: 'FrancisCharles' %>
+</p>
+<p>
+  <%= form.label :password, "Enter Your Password:" %>
+  <%= form.password_field :password %>
+</p>
+<p>
+  <%= form.label :email, "Enter Your Email:"%>
+  <%= form.email_field :email, placeholder: 'youremail@example.com' %>
+</p>
+
+<%= form.submit "Sign up" %>
+<% end %>

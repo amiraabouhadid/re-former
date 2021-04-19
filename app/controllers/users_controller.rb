@@ -9,8 +9,12 @@ class UsersController < ApplicationController
     if @user.save
       redirect_to new_user_path
     else
-      render :new
+      redirect_to edit_user_path
     end
+  end
+
+  def edit
+    @user = User.find(params[:id])
   end
 
   private
