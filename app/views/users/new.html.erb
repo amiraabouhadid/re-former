@@ -7,14 +7,14 @@ name="user[username]"> <p>Password:</p> <input type="password" name="user[passwo
 <%= form_with model: @user do |form| %>
 <%= form.label :username, "Please enter the following to sign up:" %>
 <br>
-<%= form.label :username, "Username:" %>
-<%= form.text_field :username %>
+<%= form.label :username, "Enter Your Username:" %>
+<%= form.text_field :username, placeholder: 'FrancisCharles' %>
 <br>
-<%= form.label :password, "Password:" %>
+<%= form.label :password, "Enter Your Password:" %>
 <%= form.password_field :password %>
 <br>
-<%= form.label :email, "Email"%>
-<%= form.email_field :email %>
+<%= form.label :email, "Enter Your Email"%>
+<%= form.email_field :email, placeholder: 'youremail@example.com' %>
 <br>
 
 <%= form.submit "Sign up" %>
