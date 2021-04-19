@@ -2,7 +2,7 @@
 
 # RUBY ON RAILS PROJECT: BARE METAL FORMS AND HELPERS
 
-This project is taken from the Odin Project Ruby on Rails curriculum. We were asked to build a user sign up form that takes in the username, password and email of the user. The form also allows the user to edit the information. Error messages and red borders appear when the the username, password or email entered are not valid or are empty. The old fashioned way (using HTML form tags) and the rails way (using form_tag and form_with model) were used to build the user sign up form.  
+This project is taken from the Odin Project Ruby on Rails curriculum. We were asked to build a user sign up form that takes in the username, password and email of the user. The form also allows the user to edit the information. Error messages and red borders appear when the username, password or email entered are not valid or are empty. The old fashioned way (using HTML form tags) and the rails way (using form_tag and form_with model) were used to build the user sign up form.  
 ![Screenshot from 2021-04-19 15-45-05](https://user-images.githubusercontent.com/56790126/115246955-a391c280-a126-11eb-9141-cfa547a02f43.png)
 ![Screenshot from 2021-04-19 15-45-52](https://user-images.githubusercontent.com/56790126/115246960-a55b8600-a126-11eb-9c9e-50e01109df71.png)
 ![Screenshot from 2021-04-19 15-48-50](https://user-images.githubusercontent.com/56790126/115247134-d045da00-a126-11eb-820b-a096fd68f8b2.png)
