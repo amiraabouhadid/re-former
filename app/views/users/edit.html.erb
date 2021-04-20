@@ -1,32 +1,3 @@
-<%= form_with model: @user do |form| %>
-<%= form.label :username, "Please enter the following to sign up:" %>
-<p>
-  <div>
-    <% @user.errors.full_messages_for(:username).each do |msg| %>
-      <span><%= msg %></span><br>
-    <% end %>
-  </div>
-  <%= form.label :username, "Enter Your Username:" %>
-  <%= form.text_field :username, placeholder: 'FrancisCharles' %>
-</p>
-<p>
-  <div>
-    <% @user.errors.full_messages_for(:password).each do |msg| %>
-      <span><%= msg %></span><br>
-    <% end %>
-  </div>
-  <%= form.label :password, "Enter Your Password:" %>
-  <%= form.password_field :password %>
-</p>
-<p>
-  <div>
-    <% @user.errors.full_messages_for(:email).each do |msg| %>
-      <span><%= msg %></span><br>
-    <% end %>
-  </div>
-  <%= form.label :email, "Enter Your Email:"%>
-  <%= form.email_field :email, placeholder: 'youremail@example.com' %>
-</p>
+<h1>Edit User</h1>
 
-<%= form.submit "Sign up" %>
-<% end %>
+<%= render "form", user: @user %>
